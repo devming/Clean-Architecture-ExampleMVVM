@@ -1,0 +1,53 @@
+PODS:
+  - Common (1.0.0)
+  - Data (1.0.0):
+    - Common
+    - Domain
+    - Networking
+  - Domain (1.0.0):
+    - Common
+  - Domain/Tests (1.0.0):
+    - Common
+  - Networking (1.0.0):
+    - Common
+  - Networking/Tests (1.0.0):
+    - Common
+  - Presentation (1.0.0):
+    - Common
+    - Domain
+  - Presentation/Tests (1.0.0):
+    - Common
+    - Domain
+
+DEPENDENCIES:
+  - Common (from `Modules/Common`)
+  - Data (from `Modules/Data`)
+  - Domain (from `Modules/Domain`)
+  - Domain/Tests (from `Modules/Domain`)
+  - Networking (from `Modules/Networking`)
+  - Networking/Tests (from `Modules/Networking`)
+  - Presentation (from `Modules/Presentation`)
+  - Presentation/Tests (from `Modules/Presentation`)
+
+EXTERNAL SOURCES:
+  Common:
+    :path: Modules/Common
+  Data:
+    :path: Modules/Data
+  Domain:
+    :path: Modules/Domain
+  Networking:
+    :path: Modules/Networking
+  Presentation:
+    :path: Modules/Presentation
+
+SPEC CHECKSUMS:
+  Common: 637940bec9dfd1f3721b5026499ec908faf42da9
+  Data: 7b67ee1bd0d884d1bc6adcc7f77c9e68d960125c
+  Domain: ee76a9353bac305c5ae2c4fe67b9a20a44c4e15a
+  Networking: ec72d21cc62d8ee3951a2c3331c19046b19cedbe
+  Presentation: 22312cb22b99af40531a6cfefc39fafe1bfab521
+
+PODFILE CHECKSUM: 3a535f1c71d6326104be6becafaff349ddd46e15
+
+COCOAPODS: 1.8.4

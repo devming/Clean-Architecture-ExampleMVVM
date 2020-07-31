@@ -1,0 +1,6 @@
+framework module Data {
+  umbrella header "Data-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Networking",
+  "version": "1.0.0",
+  "summary": "Networking Module",
+  "description": "Networking Module",
+  "homepage": "https://medium.com/p/c9d167d9f5b3",
+  "authors": {
+    "Oleh Kudinov": "kudoleh@hotmail.com.com"
+  },
+  "source": {
+    "git": "https://github.com/kudoleh/iOS-Clean-Architecture-MVVM.git.git",
+    "tag": "v1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0"
+  },
+  "source_files": "Networking/**/*.{m,h,swift}",
+  "dependencies": {
+    "Common": [
+
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "NetworkingTests/**/*.{m,h,swift}"
+    }
+  ]
+}

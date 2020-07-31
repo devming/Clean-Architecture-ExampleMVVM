@@ -1,0 +1,11 @@
+name: ExampleMVVM
+targets: 
+  ExampleMVVM: 
+    settings: 
+      base: 
+        INFOPLIST_FILE: Resources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: ios.exampleMVVM
+    type: application 
+    platform: iOS 
+    deploymentTarget: 10.0 
+    sources: [ExampleMVVM]
